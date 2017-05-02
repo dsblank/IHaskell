@@ -77,6 +77,7 @@ Open `localhost:$PORT` (`localhost:8888`) in your web browser to use IHaskell. I
 
 If you are using a modern version of Ubuntu, clone the repository and then run the `ubuntu-install.sh` script:
 ```bash
+sudo apt install cabal-install
 git clone http://www.github.com/gibiansky/IHaskell
 cd IHaskell
 ./ubuntu-install.sh
